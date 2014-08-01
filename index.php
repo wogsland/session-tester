@@ -12,7 +12,7 @@ $_SESSION['time'] = time();
 <body>
   The session has been alive for
   <div id="time"></div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.j$
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script>
     function timeout() {
       setTimeout(function() {
