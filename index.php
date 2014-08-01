@@ -13,20 +13,5 @@ $_SESSION['time'] = time();
   The session has been alive for
   <div id="time"></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script>
-    function timeout() {
-      setTimeout(function() {
-        $.post("sesaj.php",
-        {
-          get: "active"
-        },
-	function(data, status) {
-          $("#time").append(data);
-       	  timeout();
-        });
-      },
-      3000);
-    }
-    timeout();
-  </script>
+  <script src="js/timeout.js"></script>
 </body>
